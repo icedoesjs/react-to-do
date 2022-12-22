@@ -7,3 +7,4 @@ A simple and lighweight react to do list using font awesome and MDBoostrap
 
 #### Known issues 
 - Backspacing in the input will add a new item to the list
+- Larger text items will break the box display
