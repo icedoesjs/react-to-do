@@ -1,0 +1,31 @@
+.input-icon i {
+    position: fixed;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #5E5E5E
+}
+
+.input-icon {
+    width: 100%;
+    height: fit-content;
+}
+
+.search-box {
+    height: 5vh;
+    color: #5E5E5E;
+    width: 100%;
+    background-color: #191919;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 1rem;
+    padding-bottom: 0.39vh;
+    font-family: 'Segoe UI Italic', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-box:focus {
+    outline: none;
+    cursor: text;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1025px) {
+}

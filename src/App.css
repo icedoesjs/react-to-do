@@ -1,0 +1,49 @@
+body {
+  background-color: #090909;
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.items-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 45vw;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+}
+
+.header-text {
+  padding-right: 42vh;
+  height: 10vh;
+}
+
+.header {
+  font-size: 50px;
+}
+
+.header-icon {
+  color: green;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1025px) {
+  .header {
+    font-size: 35px;
+  }
+
+  .items-container {
+    width: 80%;
+  }
+
+  .header-text {
+    padding-right: 0vh;
+  }
+}

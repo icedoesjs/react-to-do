@@ -1,0 +1,36 @@
+.item-card {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+    font-size: large;
+}
+
+
+.item-name {
+    float: left;
+    font-size: larger;
+}
+
+.item-done {
+    color: darkgray
+}
+
+.icon-btn {
+    width: fit-content;
+    float: right;
+    padding-right: 1rem;
+    font-size: larger;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.icon-btn:hover {
+    cursor: pointer;
+}
